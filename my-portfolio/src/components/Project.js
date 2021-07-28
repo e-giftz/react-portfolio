@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import '../styles/Project.css'
+import '../styles/Project.css';
 
 function Project() {
     return (
@@ -35,10 +35,22 @@ function Project() {
                         label="Full Stack App"
                         path="/portfolio"
                         />
+                        <ProjectItem 
+                        src="images/Team-profile-webpage.png"
+                        text="Quack - The birdwatcher App"
+                        label="Full Stack App"
+                        path="/portfolio"
+                        />
                     </ul>
                     <ul className="project__items">
                         <ProjectItem 
                         src="images/birdwatcher.png"
+                        text="Quack - The birdwatcher App"
+                        label="Full Stack App"
+                        path="/portfolio"
+                        />
+                        <ProjectItem 
+                        src="images/Team-profile-webpage.png"
                         text="Quack - The birdwatcher App"
                         label="Full Stack App"
                         path="/portfolio"

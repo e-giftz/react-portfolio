@@ -8,9 +8,9 @@ function Header() {
     return (
         <div className="header-container">
             <div className="header-image" style={{ backgroundImage: "url(/images/img-1.jpg)"  }}>
+            </div>
             <h1>CREATIVE WEB DEVELOPER</h1>
             <p>Solving complex challenges  with  simple solutions</p>
-            </div>
             <div className="header-btns">
                 <Button
                     className="btns"
@@ -31,4 +31,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Header;
