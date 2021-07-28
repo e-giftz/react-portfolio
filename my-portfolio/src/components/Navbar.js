@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import  '../styles/Navbar.css';
 import {  Button } from './Button';
@@ -22,13 +22,17 @@ function Navbar() {
         }
     };
 
+    // To prevent the button from showing up on refersh
+    useEffect(() => {
+        displayButton();
+    }, []);
     // When you resize screen
     window.addEventListener('resize',  displayButton);
     return (
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link  to="/" className="navbar-logo">
+                    <Link  to="/" className="navbar-logo"  onClick={closeMobileMenu}>
                         NWAKAEGO GIFT EZE
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
@@ -36,7 +40,7 @@ function Navbar() {
                     </div>
                     <ul className={click ? "nav-menu  active"  : "nav-menu"}>
                         <li className="nav-item">
-                            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="/about-me" className="nav-links" onClick={closeMobileMenu}>
                                 About Me
                             </Link>
                         </li>
