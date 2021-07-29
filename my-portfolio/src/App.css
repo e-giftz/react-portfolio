@@ -15,6 +15,11 @@
     justify-content: center;
     font-size: 3rem;
   }
+
+  .about-me {
+    color: #fff;
+    font-size: 100px;
+  }
   
   .portfolio {
     /*backgroundImage: "url(/images/img-1.jpg)"
@@ -28,7 +33,7 @@
   
   .contact {
    
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     color: #fff;
     font-size: 100px;
   }
