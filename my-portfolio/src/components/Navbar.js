@@ -60,11 +60,11 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle="btn--outline">See Resume</Button>}
+                    {button && <Button buttonStyle="btn--outline">View Resume</Button>}
                 </div>
             </nav>
         </>
     )
 }
 
-export default Navbar
+export default Navbar;

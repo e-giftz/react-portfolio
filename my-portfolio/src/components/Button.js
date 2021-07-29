@@ -9,7 +9,7 @@ const SIZES = ["btn--medium", "btn--large"];
 export const Button = ({ 
     children,
     type,
-    onclick, 
+    onClick, 
     buttonStyle,  
     buttonSize
 }) => {
@@ -18,10 +18,10 @@ export const Button = ({
     const addButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
     return (
-        <Link to="/portfolio" className="btn-mobile">
+        <Link to="/resume" className="btn-mobile">
             <button  
             className={`btn ${addButtonStyle} ${addButtonSize}`}
-            onclick={onclick}
+            onClick={onClick}
             type={type}
             >
                 {children}

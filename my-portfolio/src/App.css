@@ -17,11 +17,11 @@
   }
   
   .portfolio {
-    /*backgroundImage: "url(/images/img-1.jpg)"*/
+    /*backgroundImage: "url(/images/img-1.jpg)"
     background-image: url('./images/img-3.png');
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     color: #fff;
     font-size: 100px;
   }

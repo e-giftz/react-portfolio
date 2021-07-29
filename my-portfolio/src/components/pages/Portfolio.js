@@ -6,7 +6,6 @@ export default function  Portfolio() {
     return ( 
         <>
         <Project />
-        
         </>
 
     );

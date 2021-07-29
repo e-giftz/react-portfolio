@@ -1,7 +1,6 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import '../styles/Project.css';
-//import background from './images/img-3.png';
 
 function Project() {    
     return (
