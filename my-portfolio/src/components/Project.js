@@ -16,49 +16,49 @@ function Project() {
                         path="/portfolio"
                         />
                         <ProjectItem 
-                        src="images/Team-profile-webpage.png"
-                        text="Quack - The birdwatcher App"
-                        label="Full Stack App"
+                        src="images/budget_tracker.png"
+                        text="PWA Budget Tracker"
+                        label="Progressive Web Apps"
                         path="/portfolio"
                         />
                     </ul>
                     <ul className="project__items">
                         <ProjectItem 
-                        src="images/birdwatcher.png"
-                        text="Quack - The birdwatcher App"
-                        label="Full Stack App"
+                        src="images/book_search_engine.png"
+                        text="Book Search Engine"
+                        label="MERN Stack/Apollo Server/ React Js"
                         path="/portfolio"
                         />
                         <ProjectItem 
-                        src="images/Team-profile-webpage.png"
-                        text="Quack - The birdwatcher App"
-                        label="Full Stack App"
+                        src="images/SportsReel.png"
+                        text="Project-Sports Reel App"
+                        label="JavaScript/JQuery"
                         path="/portfolio"
                         />
                         <ProjectItem 
-                        src="images/Team-profile-webpage.png"
-                        text="Quack - The birdwatcher App"
-                        label="Full Stack App"
+                        src="images/Weatherdashboard.png"
+                        text="Weather-Dashboard App"
+                        label="JavaScript/Bootstrap/Serverside APIs"
                         path="/portfolio"
                         />
                     </ul>
                     <ul className="project__items">
                         <ProjectItem 
-                        src="images/birdwatcher.png"
-                        text="Quack - The birdwatcher App"
-                        label="Full Stack App"
+                        src="images/code-refactor-small.png"
+                        text="The Code Refactor Webpage"
+                        label="HTML/CSS Technologies"
+                        path="/portfolio"
+                        />
+                        <ProjectItem 
+                        src="images/notetaker-landingpage.png"
+                        text="The Note-Taker App"
+                        label="Express JS Technologies"
                         path="/portfolio"
                         />
                         <ProjectItem 
                         src="images/Team-profile-webpage.png"
-                        text="Quack - The birdwatcher App"
-                        label="Full Stack App"
-                        path="/portfolio"
-                        />
-                        <ProjectItem 
-                        src="images/Team-profile-webpage.png"
-                        text="Quack - The birdwatcher App"
-                        label="Full Stack App"
+                        text="Quack - The Team Profile Generator App"
+                        label="Node JS Technologies"
                         path="/portfolio"
                         />
                     </ul>

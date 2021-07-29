@@ -5,6 +5,7 @@
     font-family: 'PT Sans', sans-serif;
 }
   
+  .home,
   .about-me,
   .portfolio,
   .contact,
@@ -17,7 +18,7 @@
   }
 
   .about-me {
-    color: #fff;
+    color: linear-gradient(90deg, rgb(109, 104, 117) 0%, rgb(181, 131, 100) 100%);
     font-size: 100px;
   }
   

@@ -50,6 +50,7 @@ const  ContactCard = () => {
         setContactName('');
         setContactEmail('');
         setContactMessage('');
+        setErrorMessage('');
       
     };
     return (
@@ -64,13 +65,15 @@ const  ContactCard = () => {
                         className="form-control" 
                         placeholder="Enter your name"
                         onChange={handleInputChange}
+                        name="contactName"
                         value={contactName} required 
                         />
                     </div>
                     <div className="form-group">
                         <label htmlFor="exampleInputEmail">Email Address</label>
                         <input 
-                        type="email" 
+                        type="email"
+                        name="contactEmail" 
                         className="form-control" 
                         aria-describedby="emailHelp" 
                         placeholder="Enter your email"
@@ -81,6 +84,7 @@ const  ContactCard = () => {
                     <div className="form-group">
                         <label htmlFor="message">Message</label>
                         <textarea 
+                        name="contactMessage"
                         className="form-control" 
                         rows="5"
                         placeholder="Type your message here"
