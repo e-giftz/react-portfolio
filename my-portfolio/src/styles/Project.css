@@ -1,11 +1,12 @@
 :root {
     --primary: #fff;
     --exclusive: #E9C46A;
-    --secondary: #EC866F;
+    --brandColor: linear-gradient(90deg, rgb(109, 104, 117) 0%, rgb(181, 131, 100) 100%);
+    --secondary: #323036;
 }
 .project {
     padding: 4rem;
-    background: var(--secondary);
+    background: var(--brandColor)
 }
   
 h1 {
@@ -29,7 +30,7 @@ h1 {
 .project__items {
     margin-bottom: 24px;
 }
-  
+
 .project__item {
     display: flex;
     flex: 1;
@@ -41,8 +42,8 @@ h1 {
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    box-shadow: 0 6px 20px rgba(109, 104, 117,0.017);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(120, 108, 121, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
     overflow: hidden;

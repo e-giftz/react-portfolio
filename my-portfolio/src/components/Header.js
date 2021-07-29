@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from './Button';
 import '../App.css';
 import '../styles/Header.css';
+import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -12,20 +13,25 @@ function Header() {
             <h1>CREATIVE WEB DEVELOPER</h1>
             <p>Solving complex challenges  with  simple solutions</p>
             <div className="header-btns">
-                <Button
-                    className="btns"
-                    buttonStyle="btn--outline"
-                    buttonSize="btn--large"
-                >
-                    View Profile
-                </Button>
-                <Button
-                    className="btns"
-                    buttonStyle="btn--primary"
-                    buttonSize="btn--large"
-                >
-                    Explore Projects
-                </Button>
+                <Link to="/about-me">
+                    <Button
+                        className="btns"
+                        buttonStyle="btn--outline"
+                        buttonSize="btn--large"
+                    >
+                        View Profile
+                    </Button>
+                </Link>
+                <Link to="/portfolio">
+                    <Button
+                        className="btns"
+                        buttonStyle="btn--primary"
+                        buttonSize="btn--large"
+                    >
+                        Explore Projects
+                    </Button>
+                </Link>
+                
             </div>
         </div>
     )

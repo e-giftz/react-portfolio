@@ -17,7 +17,13 @@ function Profile() {
                     </div>
 
                     <h1>About Me</h1>
-                    <p>I am a creative web developer with </p>
+                    <p>I am enthusiastic and dedicated Web developer with a number of successful projects bagged. 
+                        I have background in both manual and software automation testing with a degree in Computing.</p> 
+                    <p>However, I recently graduated from the Full Stack Web developer bootcamp and have gained extensive knowledge of 
+                        Front end and backend web development with a number of creative Apart from being creative and intuitive responsive user interactive applications.</p>
+                    <p>My attention to detail and problem-solving skills is my best attribute when working and consulting with a 
+                        client so that there is a good understanding of the project requirements and objectives before embarking on a specific project. 
+                    </p>
 
                 </div>
 
