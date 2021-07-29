@@ -7,15 +7,16 @@ import Portfolio from './components/pages/Portfolio';
 import Contact from './components/pages/Contact';
 
 
+
 function App() {
   return (
     <>
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/" exact component= {AboutMe} />
-        <Route path="/portfolio" component= {Portfolio} />
-        <Route path="/contact" component= {Contact} />
+        <Route exact path="/"  component={AboutMe} ></Route>
+        <Route exact path="/portfolio" component={Portfolio} ></Route>
+        <Route exact path="/contact" component={Contact} ></Route>
       </Switch>
     </Router>
    </>

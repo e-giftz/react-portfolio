@@ -1,11 +1,12 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import '../styles/Project.css';
+//import background from './images/img-3.png';
 
-function Project() {
+function Project() {    
     return (
         <div  className="project">
-            <h1>Check out these amazing projects</h1>
+            <h1>PORTFOLIO</h1>
             <div className="project__container">
                 <div  className="project__wrapper">
                     <ul className="project__items">
@@ -68,4 +69,4 @@ function Project() {
     )
 }
 
-export default Project
+export default Project;

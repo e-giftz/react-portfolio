@@ -1,6 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import Project from '../Project';
 
 export default function  Portfolio() {
-    return <h1 className="portfolio">PORTFOLIO</h1>
+    return ( 
+        <>
+        <Project />
+        
+        </>
+
+    );
 }

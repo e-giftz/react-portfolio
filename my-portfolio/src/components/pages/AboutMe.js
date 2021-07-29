@@ -1,13 +1,15 @@
 import React from 'react';
 import '../../App.css';
 import Header from '../Header';
-import Project from '../Project';
+import Profile from '../Profile';
+
 
 function AboutMe() {
     return (
         <>
             <Header />
-            <Project />
+            <Profile />
+            
         </>
     );
 }

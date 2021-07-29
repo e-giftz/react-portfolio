@@ -1,10 +1,11 @@
 :root {
     --primary: #fff;
     --exclusive: #E9C46A;
+    --secondary: #EC866F;
 }
 .project {
     padding: 4rem;
-    background: var(--primary);
+    background: var(--secondary);
 }
   
 h1 {
