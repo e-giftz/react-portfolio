@@ -21,12 +21,11 @@ Finally you get to see my contact details with the email link that takes you to 
 
 ## Links to deployed application
 
-* URL of deployed application: https://e-giftz.github.io/My-Portfolio/
+* URL of deployed application: https://github.com/e-giftz/react-portfolio
 
 * URL of Github repository containing code:  https://github.com/e-giftz/My-Portfolio
 
 ## Screenshots of Webpage 
 
-### Phone Resolution Screen
-
-![alt text](assets/images/Phone-resolution.png)
+![Google BookSearch](/assets/book_search_engine.png)
+![alt text](/public/images/portfolio-screenshot.png))

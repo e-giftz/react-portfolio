@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Profile.css';
-import logo from './logo/photo-avatar.png';
+import logo from './logo/Image-profile.jpg';
 
 function Profile() {
     return (
