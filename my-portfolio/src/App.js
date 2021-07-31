@@ -13,7 +13,7 @@ import Resume from './components/pages/Resume';
 function App() {
   return (
     <>
-    <Router>
+    <Router basename="/react-portfolio">
       <Navbar />
       <Switch>
         <Route exact path="/"  component={Home} ></Route>

@@ -3,12 +3,13 @@ import { Button } from './Button';
 import '../App.css';
 import '../styles/Header.css';
 import { Link } from 'react-router-dom';
+import headerImage from './logo/img-1.jpg';
 
 
 function Header() {
     return (
         <div className="header-container">
-            <div className="header-image" style={{ backgroundImage: "url(/images/img-1.jpg)"  }}>
+            <div className="header-image" style={{ backgroundImage: `url(${headerImage})`}}>
             </div>
             <h1>CREATIVE WEB DEVELOPER</h1>
             <p>Solving complex challenges  with  simple solutions</p>
