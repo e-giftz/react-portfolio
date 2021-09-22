@@ -1,20 +1,23 @@
 import React from 'react';
 import { Button } from './Button';
-import '../App.css';
+// import '../App.css';
 import '../styles/Header.css';
 import { Link } from 'react-router-dom';
-import headerImage from './logo/img-1.jpg';
+import headerImage from './logo/img-22.jpeg';
 
 
 function Header() {
     return (
-        <div className="header-container">
-            <div className="header-image" style={{ backgroundImage: `url(${headerImage})`}}>
+        <div className="header">
+            <div className="header-image" style={{ backgroundImage: `url(${headerImage})` }}>
             </div>
-            <h1>CREATIVE WEB DEVELOPER</h1>
-            <p>Solving complex challenges  with  simple solutions</p>
+            <div className="header-title">
+                <h1>CREATIVE WEB DEVELOPER</h1>
+                <p>Solving complex challenges  with  simple solutions</p>
+            </div>
+
             <div className="header-btns">
-                <Link to="/about-me">
+                <Link to="/about">
                     <Button
                         className="btns"
                         buttonStyle="btn--outline"

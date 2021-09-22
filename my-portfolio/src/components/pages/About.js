@@ -3,7 +3,7 @@ import '../../App.css';
 import Profile from '../Profile';
 
 
-function AboutMe() {
+function About() {
     return (
         <>
             <Profile />
@@ -12,4 +12,4 @@ function AboutMe() {
     );
 }
 
-export default AboutMe;
+export default About;

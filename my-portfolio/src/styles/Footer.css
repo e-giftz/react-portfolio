@@ -1,58 +1,87 @@
 :root {
-    --primary: #fff;
-    --secondary: #323036;
+  --primary: #fff;
+  --secondary: #323036;
 }
 
-.footer-container {
-    background-color: #323036;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.social-media {
-  max-width: 1000px;
+footer {
   width: 100%;
-}
-  
-.social-media-wrap {
+  padding: 25px 50px;
+  /* padding: 10px 0; */
+  background-color: #323036;
+  position: fixed;
+  bottom: 0;
+  height: 90px;
+  /*height: 5.5rem;
+
+  height: 64px; *
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  /*  */
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.linkedin {
+  color: #0077b5;
+}
+
+a.github {
+  color: #211F1F;
+}
+/*.social-media {
+  /* max-width: 1000px; 
+  width: 100%;
+}*/
+  
+/*.social-media-wrap {
+  /*display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
-  max-width: 1000px;
-  margin: 40px auto 0 auto;
+  max-width: 1000px;*
+  margin: 20px auto 0 auto;
 }
   
-  .social-icons {
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 240px;
+.social-icons {
+  /*color: #fff;*
+  display: flex;
+  justify-content: space-between;
+  /*align-items: center;
+  width: 240px;
+  margin-bottom: 36px;
 }
 
-  a .social-icons {
-    margin: 0 1rem;
-    transition: transform 250ms;
-    display: inline-block;
+a .social-icons {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
 }
 
-  a.social-.social-icons {
-    transform: translateY(-2px);
+a .social-.social-icons {
+  transform: translateY(-2px);
 }
   
-  .website-rights {
-    color: #fff;
-    margin-bottom: 16px;
+.website-rights {
+  color: #fff;
+  margin-bottom: 36px;
+  padding: 38px;
 }
   
-  @media screen and (max-width: 820px) {
+/*@media screen and (max-width: 820px) {
   
-    .social-media-wrap {
-      flex-direction: column;
-    }
-}
+  .social-media-wrap {
+    flex-direction: column;
+  }
+}*/
  
   

@@ -6,7 +6,9 @@
 }
 .project {
     padding: 4rem;
-    background: var(--brandColor)
+    background: var(--brandColor);
+    width: 100vw;
+    height: calc(100vh - 160px);
 }
   
 h1 {

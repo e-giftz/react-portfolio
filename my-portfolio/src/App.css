@@ -1,12 +1,54 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
+.app {
+  /*display: flex;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 15px; */
+  height: 100vh;
+  /*border-radius: 10px;
+  flex-direction: column;
+  background-color: #ffffff;
+  /* padding-bottom: 2.5rem; */
 }
+
+.sections {
+  /*padding-bottom: 5.5rem;*/
+  width: 100%;
+  height: calc(100vh - 160px);
+  position: relative;
+  top: 70px; 
+  bottom: 90px;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+
+}
+
+.sections::-webkit-scrollbar {
+  display: none;
+
+}
+
+/*.sections * {
+  width: 100vw;
+  height: calc(100vh - 160px);
+}*/
+
+/*@media (min-width: 800px) {
+  .app {
+    /*padding: 0 100px;
+    margin-top: 5vh;
+    height: 100vh;
+  }
+
+  .sections {
+    height: calc(100vh - 160px);
+    
+  }
+}*/
+
   
-  .home,
-  .about-me,
+ /* .home,
+  .about,
   .portfolio,
   .contact,
   .resume {
@@ -27,20 +69,20 @@
     background-image: url('./images/img-3.png');
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
   }
   
   .contact {
    
-    /*background-repeat: no-repeat;*/
+    /*background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
   }
   
-  .resume {
+  /*.resume {
     
     color: #fff;
     font-size: 100px;
-  }
+  }*/

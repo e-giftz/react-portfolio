@@ -5,70 +5,122 @@
   --secondary: #323036;
 }
 
-.profile-container {
-  height: 100vh;
-  width: 100%;
+.profile {
+  /* background: var(--brandColor) ; */
+  flex-grow: 1;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 160px);
+  scroll-snap-align: start;
+
+
+  /* width: 100%; */
+  top: 70px; 
+  /* bottom: 90px; */
+  /* position: relative; */
+  /* height: 100vh; */
+  /*width: 100%;
+  display: flex;
+  align-items: center;
+  
   margin-right: auto;
   margin-left: auto;
   padding-top: 50px;
   padding-right: 15px;
   padding-left: 15px;
-  max-width: 100%;
-  background: var(--brandColor) ;
-}
-
-.profile-wrapper {
-    font-size: 25px;
-    margin-top: 10px;
-    padding: auto;
-    text-align: center;
+  max-width: 100%;*/
+  
 }
   
-.logo-wrap {
-  padding: 118px;
+.profile-wrap {
+  width: 100%;
   margin-top: 20px;
-
+  /*display: inline-block;
+  vertical-align: top;
+  /* padding: 100px; */
+  
 }
+
+.profile-wrap img {
+  width: 80%;
+}
+
+.profile-text {
+  /*padding: 50px;
+  margin-top: 20px;*/
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+   'Lucida Sans', Arial, sans-serif;
+  /* text-align: justify; */
+  
+  /* display: inline-block;  */
+  width: 100%;
+}
+
+.profile-text h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+  
+.profile-text p {
+  /*margin-top: 8px;*/
+  line-height: 1.6; 
+  text-align: justify;
+}
+
+
 .img-responsive img circle {
   height: 150px;
   width: 150px;
 }
-.profile-wrapper > h1 {
-    
-    font-size: 35px;
-    margin-top: -100px;
+
+
+@media (min-width: 800px) {
+  .profile {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .profile-text,
+  .profile .logo-wrap {
+    width: 50%;
+    margin-top: 0;
+    text-align: left;
+    font-size: 25px;
+  }
+  .profile-wrap img {
+    width: 100%;
+  }
 }
   
-.profile-container > p {
-    margin-top: 8px;
-    font-size: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-}
-  
-@media screen and (max-width: 960px) {
-    .profile-container {
+/*@media screen and (max-width: 960px) {
+    .profile {
       width: 970px;
     }
-    .profile-container > h1 {
+    .profile > h1 {
       font-size: 20px;
       margin-top: -150px;
     }
 }
   
 @media screen and (max-width: 768px) {
-    .profile-container {
+    .profile {
       width: 750px;
     }
 
-    .profile-container > h1 {
+    .profile > h1 {
       font-size: 40px;
       margin-top: -100px;
       
     }
   
-    .profile-container > p {
+    .profile > p {
       font-size: 30px;
     }
   
-}
+}*/
