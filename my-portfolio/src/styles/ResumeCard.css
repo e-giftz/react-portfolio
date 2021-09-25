@@ -1,79 +1,57 @@
-:root {
-    --primary: #fff;
-    --exclusive: #E9C46A;
-    --brandColor: linear-gradient(90deg, rgb(109, 104, 117) 0%, rgb(181, 131, 100) 100%);
-    --secondary: #323036;
-}
-.resume-container {
-    /* height: 100vh; */
-    /* width: 100%; */
-    padding: 4rem;
-    background: var(--brandColor) ;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+.resume {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: var(--main-bg-color) ;
+    /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
     width: 100vw;
     height: calc(100vh - 160px);
-   
-}
-
-.resume-column > h1 {
-    /*color: var(--primary);*/
-    font-size: 35px;
-    margin-top: 10px;
-    padding: auto;
-    text-align: center;
-}
-
-.resume-group {
-    /*color: var(--primary);*/
     font-size: 20px;
-    margin: 10px;
-    text-align: center;
 }
 
-.resume-group a {
-    color: var(--primary);
+.resume h1{
+    font-size: 20px;
+}
+
+.embed-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.display-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10%;
     text-decoration: none;
+    margin: 20px; 
 }
 
-.resume-column > h3 {
-    /*color: var(--primary);*/
-    font-size: 20px;
-    margin-top: 10px;
-    padding: 5px;
-    text-align: center
+.display-wrapper a {
+    color: var(--main-text-color);
+}
+
+.display-wrapper a:hover {
+    color: var(--main-bg-color);
+    text-decoration: none;
+    background-color: var(--menu-bg-color);
+    padding: 10px  20px;
+    border-radius: 2px;
 }
   
-
-.resume-column  {
-    float: left;
-    width: 33.33%;
-}
-
-.list-group {
-    list-style-type: "*";
-    padding: 4px;
-    line-height: 1.8;
-    display: table;
-    margin: 0 auto;
-    
-}
-
-.list-group-items {
-     
-    position: relative;
-    padding: 3px 0 2px 25px;
-    
-}
-
-.list-group-items ::before {
-    content: '*';
-    position: absolute;
-    top: 6px;
-    left: 0;
-}
-  
-@media screen and (max-width: 600px) {
-    .resume-column {
-      width: 100%;
+@media (min-width: 800px) {
+    .resume h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+        height: 40px;
     }
 }

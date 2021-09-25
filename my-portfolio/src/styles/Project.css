@@ -1,12 +1,12 @@
-:root {
+/*:root {
     --primary: #fff;
     --exclusive: #E9C46A;
     --brandColor: linear-gradient(90deg, rgb(109, 104, 117) 0%, rgb(181, 131, 100) 100%);
     --secondary: #323036;
-}
+}*/
 .project {
     padding: 4rem;
-    background: var(--brandColor);
+    background: var(--main-bg-color);
     width: 100vw;
     height: calc(100vh - 160px);
 }

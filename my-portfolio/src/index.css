@@ -1,20 +1,35 @@
+:root {
+    --main-bg-color: #dddddd;
+    --main-text-color: #000;
+    --menu-bg-color: #3598DC;
+    --other-color: #2D3E50;
+    --primary: #fff;
+    --theme-red: #E94C3D;
+    --theme-yellow: #F2C40F;
+    --theme-gradient: rgb(233,76,61);
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* overflow: hidden; */
+    overflow-x: hidden; 
 }
 
 body {
     font-family: 'PT Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #43464B;
+    background-color: var(--main-bg-color);
 }
   
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
     display: none;
+}
+
+body .bg-light {
+    background-color: var(--main-bg-color) !important;
 }
   
 body {
@@ -24,12 +39,6 @@ body {
   
 code {
     font-family: 'PT Sans', sans-serif;
-}
-  
-.container {
-    margin: 0 auto;
-    padding: 0 15px;
-    max-width: 1280px;
 }
   
 p {
