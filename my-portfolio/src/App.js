@@ -15,23 +15,24 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <Router basename="/react-portfolio">
-        <div className="app">
-          <Navbar />
-          <div className="sections"> 
-            <Switch>
-              <Route exact path="/" component={Home} ></Route>
-              <Route exact path="/about" component={About} ></Route>
-              <Route exact path="/skills" component={Skills} ></Route>
-              <Route exact path="/portfolio" component={Portfolio} ></Route>
-              <Route exact path="/resume" component={Resume} ></Route>
-              <Route exact path="/contact" component={Contact} ></Route>
-            </Switch>
-          </div>
-          <Footer />
-        </div> 
-      </Router>
-   </>
+    <Router basename="/react-portfolio">
+      <div className="app">
+        <Navbar />
+        <div className="sections">
+          <Switch>
+            <Route exact path="/" component={Home} ></Route>
+            <Route exact path="/about" component={About} ></Route>
+            <Route exact path="/skills" component={Skills} ></Route>
+            <Route exact path="/portfolio" component={Portfolio} ></Route>
+            <Route exact path="/resume" component={Resume} ></Route>
+            <Route exact path="/contact" component={Contact} ></Route>
+          </Switch>
+        </div>
+        <Footer />
+      </div>
+    </Router>
+    </>
+
   );
 }
 

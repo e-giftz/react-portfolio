@@ -38,9 +38,9 @@ function Profile() {
                 </div>
 
             </div>
-
-
         </>
+
+        
     )
 }
 

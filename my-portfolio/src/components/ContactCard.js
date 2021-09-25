@@ -28,9 +28,8 @@ const  ContactCard = () => {
                 <p>Ottawa, ON K4A 1E5</p>
 
             </div>
-
         </>
-
+        
     );
 };
 

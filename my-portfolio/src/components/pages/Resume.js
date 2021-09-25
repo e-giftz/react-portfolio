@@ -7,7 +7,6 @@ function Resume() {
     return (
         <>
             <ResumeCard />
-            
         </>
     );
 }
