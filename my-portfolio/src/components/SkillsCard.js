@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/SkillsCard.css';
-import Pdf from '../documents/WebDeveloperResume.pdf'
+import { Button } from './Button';
+import { Link } from 'react-router-dom';
 
 const SkillsCard = () => {
     return (
@@ -54,10 +55,17 @@ const SkillsCard = () => {
 
             <div className="resume-wrap">
                 <h1>Resume:</h1>
-                <div className="resume-content">
-                    <a href={Pdf} target="_blank" rel="noreferrer" className="btn btn-secondary">
-                        View Resume
-                    </a>
+                
+                <div className="resume-btns">
+                    <Link to="/resume">
+                        <Button
+                            className="btns"
+                            buttonStyle="btn--primary"
+                            buttonSize="btn--medium"
+                        >
+                            View Resume
+                        </Button>
+                    </Link>
                 </div>
                 
             </div>

@@ -2,7 +2,7 @@
     padding: 4rem;
     background: var(--main-bg-color);
     width: 100vw;
-    height: calc(100vh - 160px);
+    height: calc(100vh - 160px); 
     font-size: 15px;
 }
   
@@ -130,6 +130,14 @@ h2 {
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
+}
+
+.smallfont {
+    font-style: normal;
+}
+
+.modal-90w {
+    pointer-events: all; 
 }
   
 @media only screen and (min-width: 1200px) {

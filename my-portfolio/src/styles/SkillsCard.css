@@ -1,12 +1,13 @@
 .skills {
     flex-grow: 1;
     width: 100vw;
-    height: calc(100vh - 160px);
+    height: calc(100vh - 160px); 
 }
   
 .skills h1 {
     /* margin-bottom: 15px; */
     font-size: 25px;
+    padding-top: 28px;
 }
 
 .skills-wrap{
@@ -52,14 +53,6 @@
     flex-direction: column;
 }
 
-
-.resume .btns {
-    position: absolute;
-    margin-top: 200px;
-    background-color: var(--other-color);
-    
-    border: 1px solid  var(--other-color); 
-}
 
   
 @media (min-width: 800px) {

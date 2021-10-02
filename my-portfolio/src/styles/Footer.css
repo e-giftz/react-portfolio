@@ -3,7 +3,8 @@ footer {
   padding: 9px 40px;
   /* background-color: var(--other-color); */
   position: fixed;
-  bottom: 0;
+  /* bottom: 0; */
+  bottom: -19px;
   height: 90px;
 }
 

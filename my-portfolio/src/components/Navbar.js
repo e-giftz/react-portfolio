@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import  '../styles/Navbar.css';
 // import {  Button } from './Button';
@@ -112,7 +112,7 @@ function Navbar() {
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse" id="navbarNav" data-toggle="collapse" data-target=".navbar-collapse" >
                     <ul class="navbar-nav">
 
                         <li class="nav-item active">

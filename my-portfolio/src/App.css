@@ -12,14 +12,15 @@
 
 .sections {
   width: 100%;
-  height: calc(100vh - 160px);
+  height: calc(100vh - 90px); 
+  /* height: calc(100vh - 160px); */
   position: relative;
   top: 70px; 
   bottom: 90px;
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory; 
   scrollbar-width: none;
-  z-index: 4;
+  /* z-index: 1000;  */
 
 }
 
