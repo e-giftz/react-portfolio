@@ -1,7 +1,5 @@
 .header {
-  /*background: url('/images/img-home.jpg') center center/cover no-repeat; */
   flex-grow: 1;
-  /* min-width: 100%;  */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,8 +8,6 @@
   width: 100vw;
   height: calc(100vh - 160px); 
   scroll-snap-align: start;
-  /*height: 100vh */
-  
 }
 
 .header-image {
@@ -27,18 +23,15 @@
   position: absolute;
   width: 100%;
   line-height: 50px;
-  /* margin-top: 20px; */
   text-align: center;
   margin: auto;
   bottom: 50%;
 }
 .header-title h1 {
   color: var(--main-bg-color);
-  /* font-size: 60px; */
 }
   
 .header-title p {
-    /* margin-top: 8px; */
     color: var(--main-bg-color);
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -47,7 +40,6 @@
   
 .header-btns {
   position: absolute;
-  /* margin-top: 200px;  */
   margin: auto;
   bottom: 35%;
 }
@@ -71,7 +63,6 @@
     margin-top: 0;
     text-align: center;
     font-size: 30px;
-    
   }
 
   .header-btns {
@@ -80,30 +71,3 @@
   }
 
 }
-/*
-@media screen and (max-width: 960px) {
-    .header> h1 {
-      font-size: 70px;
-      margin-top: -150px;
-    }
-}
-  
-@media screen and (max-width: 768px) {
-    .header > h1 {
-      font-size: 50px;
-      margin-top: -100px;
-    }
-  
-    .header > p {
-      font-size: 30px;
-    }
-  
-    .btn-mobile {
-      display: block;
-      text-decoration: none;
-    }
-  
-    .btn {
-      width: 100%;
-    }
-}*/

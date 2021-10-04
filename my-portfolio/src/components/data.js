@@ -73,33 +73,3 @@ export const portfolios = [
         img: "images/Team-profile-webpage.png",
     },
 ];
-
-// export const javascriptPortfolio = [
-//     {
-//         id: 1,
-//         title: "Project-Sports Reel App",
-//         img: "images/SportsReel.png",
-//     },
-//     {
-//         id: 2,
-//         title: "Weather-Dashboard App",
-//         img: "images/Weatherdashboard.png",
-//     },
-// ];
-
-// export const reactPortfolio = [
-//     {
-//         id: 1,
-//         title: "Book Search Engine",
-//         img: "images/book_search_engine.png",
-//     },
-// ];
-
-// export const nodePortfolio = [
-//     {
-//       id: 1,
-//       title: "Quack - The birdwatcher App",
-//       img:
-//         "images/birdwatcher.png",
-//     },
-// ];

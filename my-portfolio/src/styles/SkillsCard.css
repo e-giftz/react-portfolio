@@ -5,27 +5,24 @@
 }
   
 .skills h1 {
-    /* margin-bottom: 15px; */
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 28px;
+    text-transform: uppercase;
 }
 
 .skills-wrap{
     display: flex; 
     align-items: center;
-    height: 95%;
+    height: 84%;
     width: 100%;
     justify-content: flex-start;
     flex-direction: column;
 }
 
-  
 .content {
     display: grid;
     font-size: 15px;
     grid-template-columns: 1fr 1fr;
-    /* margin: 20px; */
-    /* padding: 20px; */
 }
   
 .content div {
@@ -41,13 +38,13 @@
   
 .content li {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .resume-wrap {
     display: flex; 
     align-items: center;
-    height: 18%;
+    /* height: 17%; */
     width: 100%;
     justify-content: flex-start; 
     flex-direction: column;
@@ -69,5 +66,8 @@
     .content div {
         margin-bottom: 20px;
         margin-left: 80px;
+    }
+    .content li {
+        margin-bottom: 10px;
     }
 }

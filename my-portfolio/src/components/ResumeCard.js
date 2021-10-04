@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/ResumeCard.css';
-// import { Link } from 'react-router-dom';
 import Pdf from '../documents/WebDeveloperResume.pdf';
 
 

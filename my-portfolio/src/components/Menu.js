@@ -1,12 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/Menu.css';
 import { Button } from './Button';
+import ButtonPortfolio from '../components/ButtonPortfolio';
+import { portfolios }  from '../components/data';
 
-function Menu({menuItem}) {
+// Array of buttons to hold the buttons with category
+const allButtons = ["All", ...new Set(portfolios.map(item => item.category))];
+function Menu() {
+
+    const [menuItem, setMenuItems] = useState(portfolios);
+    const [button, setButtons] = useState(allButtons);
+
+    // Set filter function to filter data
+    const filter = (button) => {
+
+        if(button === 'All'){
+            setMenuItems(portfolios);
+            return;
+        }
+        const filteredData = portfolios.filter(item => item.category === button);
+        setMenuItems(filteredData);
+    }
     return (
         <>
             <div className="menu">
-                {/* <h1>Portfolio</h1> */}
+                <h1>Portfolio</h1>  
+                <ButtonPortfolio filter={filter} button={button} />
                 <div className="menu-container">
                     {
                         menuItem.map((item) => {
@@ -18,7 +37,7 @@ function Menu({menuItem}) {
                                         <ul>
                                             <li>
                                                 <Button
-                                                    className="portfolio-btns"
+                                                    // className="portfolio-btns"
                                                     buttonStyle="btn--primary"
                                                     buttonSize="btn--medium"
                                                 >
@@ -26,7 +45,6 @@ function Menu({menuItem}) {
                                                         View Repo:
                                                     </a>
                                                 </Button>
-                                                {/* <a href={item.link1}></a> */}
                                             </li>
                                             <li>
                                                 <Button
@@ -38,7 +56,6 @@ function Menu({menuItem}) {
                                                         View App:
                                                     </a>
                                                 </Button>
-                                                {/* <a href={item.link2}></a> */}
                                             </li>
                                         </ul>
                                     </div>

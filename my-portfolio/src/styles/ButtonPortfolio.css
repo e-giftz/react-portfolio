@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -22,8 +22,9 @@
 
 }
 
-.portfolio-btn:focus:active {
+.isActive {
     background-color: red;
+    /* color: red; */
 }
 
 .portfolio-btn:hover {
@@ -31,4 +32,11 @@
 }
 .portfolio-btn:not(:last-child) {
     margin-right: .6rem;
+}
+
+@media (min-width: 800px) {
+    .portfolio-btns {
+        width: 70%;
+        
+    }
 }

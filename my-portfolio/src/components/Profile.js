@@ -7,7 +7,6 @@ function Profile() {
         <>
             <div className="profile">
                 <div className="left">
-                    {/* <div className="profile-wrap"> */}
                     <div className="hexagon">
                         <div className="shape">
                             <img src={logo}

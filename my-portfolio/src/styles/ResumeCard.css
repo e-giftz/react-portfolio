@@ -13,6 +13,8 @@
     font-size: 20px;
     padding: 10px;
     margin-bottom: 10px;
+    text-transform: uppercase;
+    height: 10%;
 }
 
 .embed-wrapper {
@@ -48,12 +50,16 @@ iframe {
     background-color: var(--menu-bg-color);
     padding: 10px  20px;
     border-radius: 2px;
+    font-size: 15px ;
 }
   
 @media (min-width: 800px) {
     .resume h1{
-        font-size: 30px;
+        font-size: 26px;
         margin-bottom: 10px;
         height: 40px;
+    }
+    .display-wrapper a:hover {
+        font-size: 20px ;
     }
 }
