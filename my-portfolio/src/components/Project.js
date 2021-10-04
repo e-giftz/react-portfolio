@@ -4,7 +4,7 @@ import '../styles/Project.css';
 
 function Project() {    
     return (
-        <div  className="project">
+        <div className="project">
             <h1>PORTFOLIO</h1>
             <div className="project__container">
                 <div  className="project__wrapper">
@@ -15,6 +15,7 @@ function Project() {
                         label="Full Stack App"
                         path="/portfolio"
                         />
+
                         <ProjectItem 
                         src="images/budget_tracker.png"
                         text="PWA Budget Tracker"
