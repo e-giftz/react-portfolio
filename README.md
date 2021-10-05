@@ -25,5 +25,5 @@ Finally you get to see my contact details with the email link that takes you to 
 
 ## Screenshots of Webpage 
 
-![Google BookSearch](/my-portfolio/public/images/portfolio-screenshot.png)
+![My Portfolio](/my-portfolio/public/images/MyReactPortfolioImg.png)
 
