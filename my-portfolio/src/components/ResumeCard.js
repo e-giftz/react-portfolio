@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/ResumeCard.css';
-import Pdf from '../documents/WebDeveloperResume.pdf';
+import Pdf from '../documents/WebDeveloperPDF.pdf';
 
 
 function ResumeCard() {
