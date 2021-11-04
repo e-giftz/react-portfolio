@@ -2,18 +2,34 @@
     flex-grow: 1;
     width: 100vw;
     height: calc(100vh - 160px); 
+    font-size: 15px;
 }
   
 .skills h1 {
-    font-size: 20px;
-    padding-top: 28px;
+    font-size: 18px;
+    padding: 27px 0 0 0;
     text-transform: uppercase;
+}
+
+.skills h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 2px;
+}
+
+.skills p {
+    font-size: 15px;
+}
+
+.skills p a {
+    /* padding: 20px; */
+    text-decoration: none;
 }
 
 .skills-wrap{
     display: flex; 
     align-items: center;
-    height: 84%;
+    /* height: 84%; */
     width: 100%;
     justify-content: flex-start;
     flex-direction: column;
@@ -26,7 +42,7 @@
 }
   
 .content div {
-    margin-bottom: 15px;
+    margin-bottom: 4px;
     margin-left: 45px;
 }
   
@@ -50,14 +66,16 @@
     flex-direction: column;
 }
 
-
   
 @media (min-width: 800px) {
-    .skills h1 {
+    h1 { 
         margin-bottom: 20px;
+        font-size: 20px;
+        text-transform: uppercase;
     }
+
     .skills-wrap{
-        height: 77%;
+        height: 88%;
     }
     .content {
       grid-template-columns: 1fr 1fr 1fr;
@@ -67,7 +85,11 @@
         margin-bottom: 20px;
         margin-left: 80px;
     }
+   
     .content li {
         margin-bottom: 10px;
     }
+    /* .resume-wrap{
+        height: 12%;
+    } */
 }

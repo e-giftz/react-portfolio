@@ -19,18 +19,18 @@ const SkillsCard = () => {
                     <div>
                         <strong>Libraries:</strong>
                         <li>Bootstrap</li>
-                        <li>Express.js</li>
+                        <li>Express</li>
                         <li>Handlebars</li>
-                        <li>Material-ui</li>
+                        <li>Material-UI</li>
                         <li>React.js</li>
                     </div>
                     <div>
                         <strong>Tools:</strong>
-                        <li>Eslint</li>
+                        <li>ESLint</li>
                         <li>Webpack</li>
                         <li>Chrome Dev</li>
                         <li>Heroku</li>
-                        <li>Git & Github</li>
+                        <li>Git & GitHub</li>
                     </div>
                     <div>
                         <strong>Databases:</strong>
@@ -41,11 +41,11 @@ const SkillsCard = () => {
                     <div>
                         <strong>Other Backend Proficiencies:</strong>
                         <li>REST APIs</li>
-                        <li>Graphql</li>
-                        <li>Sequelize</li>
+                        <li>GraphQL</li>
+                        <li>Sequelize ORM</li>
                     </div>
                     <div>
-                        <strong>Uint Test:</strong>
+                        <strong>Unit Test:</strong>
                         <li>Jest</li>
                         <li>Enzyme</li>
                     </div>
@@ -54,19 +54,20 @@ const SkillsCard = () => {
             </div>
 
             <div className="resume-wrap">
-                <h1>Resume:</h1>
+                <h2>Resume</h2>
                 
-                <div className="resume-btns">
-                    <Link to="/resume">
+                {/* <div className="resume-btns"> */}
+                    <p><Link to="/resume">
                         <Button
-                            className="btns"
+                            className="btn"
                             buttonStyle="btn--primary"
                             buttonSize="btn--medium"
                         >
-                            View Resume
+                            Click to view Resume
                         </Button>
                     </Link>
-                </div>
+                    </p>
+                {/* </div> */}
                 
             </div>
         </div>
