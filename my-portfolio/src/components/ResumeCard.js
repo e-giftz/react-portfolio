@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/ResumeCard.css';
-import Pdf from '../documents/WebDeveloperPDF.pdf';
+import Pdf from '../documents/SoftwareDeveloperResume.pdf';
 
 
 function ResumeCard() {
@@ -10,7 +10,7 @@ function ResumeCard() {
                 <div className="embed-wrapper">
                     <h1>My Resume</h1>
                     <iframe 
-                        src="https://drive.google.com/file/d/1eSs4B81jdSwwcIZdTYBVueDq1hE6Q3UR/preview" 
+                        src="https://drive.google.com/file/d/1YrNBOFVIzKOr3GCteI_t3WZulz_19waK/preview" 
                         title="file" 
                         width="640" 
                         height="650" 
