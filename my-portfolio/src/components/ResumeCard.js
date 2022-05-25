@@ -10,7 +10,7 @@ function ResumeCard() {
                 <div className="embed-wrapper">
                     <h1>My Resume</h1>
                     <iframe 
-                        src="https://drive.google.com/file/d/1YrNBOFVIzKOr3GCteI_t3WZulz_19waK/preview" 
+                        src="https://drive.google.com/file/d/1ertgiUPTyA-eq11fvTm01B6rhN2kDFjT/preview " 
                         title="file" 
                         width="640" 
                         height="650" 

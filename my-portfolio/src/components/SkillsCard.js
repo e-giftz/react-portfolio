@@ -13,6 +13,7 @@ const SkillsCard = () => {
                         <strong>Languages:</strong>
                         <li>CSS3</li>
                         <li>HTML5</li>
+                        <li>Sass</li>
                         <li>Node.js</li>
                         <li>JavaScript</li>
                     </div>
@@ -20,6 +21,7 @@ const SkillsCard = () => {
                         <strong>Libraries:</strong>
                         <li>Bootstrap</li>
                         <li>Express</li>
+                        <li>Node.js</li>
                         <li>Handlebars</li>
                         <li>Material-UI</li>
                         <li>React.js</li>
@@ -30,6 +32,7 @@ const SkillsCard = () => {
                         <li>Webpack</li>
                         <li>Chrome Dev</li>
                         <li>Heroku</li>
+                        <li>Netlify</li>
                         <li>Git & GitHub</li>
                     </div>
                     <div>
